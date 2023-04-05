@@ -1,0 +1,30 @@
+Comece revisando pelo básico, com os arquivos listados em integration.
+Abaixo segue lista da sequencia de arquivos para um melhor entendimento:
+
+    arrow.spec.js
+    promisses.spec.js
+    describe.spec.js
+    asserts.spec.js
+    basic.spec.js
+    elements.spec.js
+    sync.spec.js
+    helpers.spec.js
+    alert.spec.js
+    iframe.spec.js
+    popup.spec.js
+    locators.spec.js
+    fixture.spec.js
+    dinamic.spec.js
+    time.spec.js
+
+    desafio.spec.js
+
+depois passe para os arquivos contidos em barriga:
+    functional.spec.js
+    backend.spec.js
+    frontend.spec.js
+
+E por ultimo
+
+    terminal.txt
+

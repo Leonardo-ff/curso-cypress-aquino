@@ -1,0 +1,19 @@
+Abaixo seguem algumas instruções para execução dos testes em um terminal
+
+- Execução de todos os testes
+
+    1 Habilitar no arquivo package.json em scripts o comando "cypress:run": "cypress run"
+    2 No terminal digitar npm run cypress:run
+    3 Testes serão executados no próprio terminal, sem visualização dos testes no browser
+
+- Execução de testes específicos
+
+    1 Executar o comando "npm run cypress:run -- --spec cypress/integration/time.spec.js"
+        sendo: "-- --spec" dizendo ao terminal que será executado um teste específicos
+            "cypress/integration/time.spec.js" o caminho onde se encontra o arquivo para teste
+
+
+- Execução de teste em um browser específicos
+
+    1 Executar o comando "npm run cypress:run --browser chrome"
+
